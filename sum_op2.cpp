@@ -4,7 +4,7 @@
 #include <chrono>
 using namespace std;
 // 优化算法-递归函数
-void recursion(int n,vector<int> a){
+void recursion(int n,vector<int> &a){
     if(n==1){
         return;
     }

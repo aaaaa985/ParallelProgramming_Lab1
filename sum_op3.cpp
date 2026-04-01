@@ -29,7 +29,7 @@ int main(int argc,char* argv[]){
     }
     auto end=chrono::high_resolution_clock::now();
     chrono::duration<double,milli> elapsed=end-start;
-    cout<<"Sum = "<<sum<<endl;
+    cout<<"Sum = "<<a[0]<<endl;
     cout<<"Time elapsed = "<<elapsed.count()/NUM<<"ms"<<endl;
     return 0;
 }
