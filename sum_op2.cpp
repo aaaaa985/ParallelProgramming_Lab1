@@ -22,7 +22,7 @@ int main(int argc,char* argv[]){
     }
     int n=atoi(argv[1]);
     vector<int> a(n);
-    const int NUM=100;
+    const int NUM=1000;
     auto start=chrono::high_resolution_clock::now();
     for(int r=0;r<NUM;r++){
         // 初始化

@@ -13,7 +13,7 @@ int main(int argc,char* argv[]){
     vector<int> a(n);
     
     // 添加重复循环以获取更有效的时间
-    const int NUM=100;
+    const int NUM=1000;
     auto start=chrono::high_resolution_clock::now();
     for(int r=0;r<NUM;r++){
         // 初始化
